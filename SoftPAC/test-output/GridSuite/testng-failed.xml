@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GridSuite]">
+  <parameter name="port" value="http://192.168.100.194:5005"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Node1(failed)">
+    <parameter name="port" value="http://192.168.100.190:5555"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Grid.SeGrPortTest">
+        <methods>
+          <include name="wiki"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Grid.SeGrPortTest -->
+    </classes>
+  </test> <!-- Node1(failed) -->
+  <test name="Node2(failed)">
+    <parameter name="port" value="http://192.168.100.194:5005"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Grid.SeGrPortTest">
+        <methods>
+          <include name="wiki"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- Grid.SeGrPortTest -->
+    </classes>
+  </test> <!-- Node2(failed) -->
+</suite> <!-- Failed suite [GridSuite] -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="none">
+  <test thread-count="2" name="Test1" parallel="none">
+    <classes>
+      <class name="testfortestNg.AlertTestNg"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="1" name="Test2">
+    <classes>
+      <class name="testfortestNg.WikipediatestNg"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

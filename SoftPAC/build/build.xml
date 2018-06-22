@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="test" default="run-test" basedir=".">
+
+	<property name="RELEASE_ROOT" value=".." />
+	<!--<property name="JENKINS_PATH" value="C:/Users/QAAgility/.jenkins/workspace/SeleniumTestAnt/" />-->
+	<property name="SRC" value="${RELEASE_ROOT}/test" /> <!-- Change it to your source folder -->
+	<property name="LIB" value="${RELEASE_ROOT}/lib" /> <!-- Change it to your lib folder --> 
+	<property name="BIN" value="${RELEASE_ROOT}/bin" /> <!-- Change it to your binary folder where you need to generate the compiled binary file -->
+	<property name="REPORT" value="${RELEASE_ROOT}/report" /> <!-- Change it to your output report folder -->
+	<path id="test.classpath"> <!-- Creating a classpath for use while compiling -->
+		<pathelement location="${BIN}" />
+		<fileset dir="${LIB}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	<target name="init"> <!-- Initialization target which deletes and recreates the binary folder.-->
+		<delete dir="${BIN}" />
+		<mkdir dir="${BIN}" />
+	</target>
+	<target name="compile" depends="init"> <!-- Target for compiling the source folder  -->
+		<javac source="1.8" srcdir="${SRC}" fork="true" destdir="${BIN}" >
+			<classpath>
+				<pathelement path="${BIN}">
+				</pathelement>
+				<fileset dir="${LIB}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+		</javac>
+
+	</target>
+	<target name="run-test" depends="compile"> <!-- Target for running a single test -->
+		<delete dir="${REPORT}" />
+		<mkdir dir="${REPORT}" />
+			<mkdir dir="${REPORT}/xml" /> <!-- Creating a xml folder under the report folder for saving the report output. -->
+		<junit printsummary="yes" haltonfailure="no">
+			<classpath>
+				<pathelement location="${BIN}" />
+				<fileset dir="${LIB}">
+					<include name="**/*.jar" />
+				</fileset>
+			</classpath>
+
+			<test name="testJunit.GooglemapJunit" haltonfailure="no" todir="${REPORT}/xml" outfile="TEST-result"> <!-- Change the class in name="" to your Java test class. -->
+				<formatter type="xml" />
+			</test>
+			
+			
+		</junit>
+		<junitreport todir="${REPORT}"> <!-- This section generated the Junit report in html to "html" folder from the xml file. -->
+			<fileset dir="${REPORT}/xml">
+				<include name="TEST*.xml" />
+			</fileset>
+			<report format="frames" todir="${REPORT}/html" />
+		</junitreport>
+
+	</target>
+
+</project>
