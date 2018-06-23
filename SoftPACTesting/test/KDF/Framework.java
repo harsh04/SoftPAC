@@ -141,7 +141,8 @@ public class Framework {
 		}
 		System.out.println("Status : " + status);
 		System.out.println();
-		LogRecorder.modifyExistingWorkbook();
+		LogRecorder.rowNumber++;
+		LogRecorder.modifyExistingWorkbook("","",operation,objectName,objectType,status);
 	}
 
 	/**

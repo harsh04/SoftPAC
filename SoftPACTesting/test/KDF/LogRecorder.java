@@ -1,6 +1,7 @@
 package KDF;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.IllegalFormatException;
@@ -11,10 +12,11 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class LogRecorder {
-	private static String[] header = {"TestCase", "DDT Record Number", "Keyword", "Object locator","Object Type","Result"};
+	private static String[] header = {"TestCase", "DDT data", "Keyword", "Object locator","Object Type","Status"};
 	static String workingDir;
 	static String fileName;
 	static String sheetName;
+	static int rowNumber = 0;
 	
 	
 	
@@ -55,27 +57,30 @@ public class LogRecorder {
         fileOut.close();
     }
     
-    static void modifyExistingWorkbook() throws InvalidFormatException, IOException {
+    static void modifyExistingWorkbook(String testCase, String recordNum, String keyword, String locator, String locatorType, String result) throws InvalidFormatException, IOException {
         // Obtain a workbook from the excel file
-        Workbook workbook = WorkbookFactory.create(new File(workingDir+"//"+fileName));
+        Workbook workbook = WorkbookFactory.create(new FileInputStream(workingDir+"//"+fileName));
 
         // Get Sheet at index 0
         Sheet sheet = workbook.getSheet(sheetName);
-
+        sheet.createRow(rowNumber);
         // Get Row at index 1
-        Row row = sheet.getRow(1);
+        Row row = sheet.getRow(rowNumber);
+        Cell cell_0 = row.createCell(0);
+        Cell cell_1 = row.createCell(1);
+        Cell cell_2 = row.createCell(2);
+        Cell cell_3 = row.createCell(3);
+        Cell cell_4 = row.createCell(4);
+        Cell cell_5 = row.createCell(5);
         
-        // Get the Cell at index 2 from the above row
-        Cell cell = row.getCell(2);
-
-        // Create the cell if it doesn't exist
-        if (cell == null)
-            cell = row.createCell(2);
-
-        // Update the cell's value
-        cell.setCellType(XSSFCell.CELL_TYPE_STRING);
-        cell.setCellValue("Updated Value");
-
+        
+        cell_0.setCellValue(testCase);
+        cell_1.setCellValue(recordNum);
+        cell_2.setCellValue(keyword);
+        cell_3.setCellValue(locator);
+        cell_4.setCellValue(locatorType);
+        cell_5.setCellValue(result);
+        
         // Write the output to the file
         FileOutputStream fileOut = new FileOutputStream(workingDir+"//"+fileName);
         workbook.write(fileOut);

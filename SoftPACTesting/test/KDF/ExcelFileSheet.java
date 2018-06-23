@@ -17,8 +17,6 @@ import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelFileSheet {
-	private static String[] logHeader = {"TestCaseName","Test case number", "Keyword", "Object Locator","Object Type", "Status"};
-
 	// method takes three parameters
 	// 1. file path
 	// 2. file name

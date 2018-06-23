@@ -64,13 +64,16 @@ public class Login {
 								row.getCell(4).toString(), row.getCell(5).toString(), parameters);
 						
 					} catch (Exception e) {
-						System.out.println("fail =" + e.getMessage());
+						System.out.println("fail =" );
+						e.printStackTrace();
 					}
 				}
 			}
 			else {
 				System.out.println("New Testcase-> " + row.getCell(0).toString()
 						+ " Started");
+				LogRecorder.rowNumber++;
+				LogRecorder.modifyExistingWorkbook(row.getCell(0).toString(),"","","","","");
 				
 			}
 		}
