@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11431" started-at="2018-06-22T23:55:10Z" finished-at="2018-06-22T23:55:22Z">
+  <suite name="Default suite" duration-ms="421" started-at="2018-06-23T00:50:24Z" finished-at="2018-06-23T00:50:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11431" started-at="2018-06-22T23:55:10Z" finished-at="2018-06-22T23:55:22Z">
-      <class name="KDF.Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.Login@32d992b2]" name="setUp" is-config="true" duration-ms="13" started-at="2018-06-22T16:55:10Z" finished-at="2018-06-22T16:55:10Z">
+    <test name="Default test" duration-ms="421" started-at="2018-06-23T00:50:24Z" finished-at="2018-06-23T00:50:24Z">
+      <class name="KDF.Membership_registration">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.Membership_registration@4439f31e]" name="setUp" is-config="true" duration-ms="0" started-at="2018-06-22T17:50:24Z" finished-at="2018-06-22T17:50:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="test()[pri:0, instance:KDF.Login@32d992b2]" name="test" duration-ms="11396" started-at="2018-06-22T16:55:10Z" finished-at="2018-06-22T16:55:22Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:KDF.Membership_registration@4439f31e]" name="loginTest" duration-ms="0" started-at="2018-06-22T17:50:24Z" data-provider="login" finished-at="2018-06-22T17:50:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:150)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
+	at org.testng.internal.Invoker.handleParameters(Invoker.java:1270)
+	at org.testng.internal.Invoker.createParameters(Invoker.java:985)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1075)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.Login@32d992b2]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-22T16:55:22Z" finished-at="2018-06-22T16:55:22Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.Membership_registration@4439f31e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-22T17:50:24Z" finished-at="2018-06-22T17:50:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- KDF.Login -->
+      </class> <!-- KDF.Membership_registration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -21,7 +21,6 @@ public class Framework {
 	static String[][] ddtData;
 	static Row ddtHead;
 	static int ddtRows = 0;
-	
 	List<String> ddtHeader = new ArrayList<String>();
 	static HashMap<String, String> variables = new HashMap<String, String>();
 
@@ -30,15 +29,14 @@ public class Framework {
 	}
 
 	public void performAction(String operation, String objectName, 
-			String objectType, String value, String var) throws Exception {
+			String objectType, String value, String var, HashMap<String, String> param) throws Exception {
 		
 		System.out.println("Command : " + operation);
 		String status = "failed";
 		
 		switch (operation.toUpperCase()) {
 		
-		case "DATAPROVIDER":
-			ddtData = ExcelFileSheet.readXLSX("test\\resources\\data",objectName, value);
+	/*	case "DATAPROVIDER":
 			ddtRows = ddtData.length;
 			ddtHead = ExcelFileSheet.getExcelSheet("test\\resources\\data",objectName, value).getRow(0);
 			int col_num = ddtHead.getLastCellNum();
@@ -47,7 +45,7 @@ public class Framework {
 				ddtHeader.add((ddtHead.getCell(i).toString()));
 			}
 			status = "Passed";
-			break;
+			break;*/
 			
 		case "OPENBROWSER":
 			System.out.println("Opening : " + value);
@@ -111,11 +109,10 @@ public class Framework {
 		case "SETTEXT":
 			if(value.contains("{{")){
 				String colName = value.replace("{{", "");
-				colName = colName.replace("}}", "");
-				int index_value = ddtHeader.indexOf(colName);
+				colName = colName.replace("}}", "");				
 				System.out.println("In : " + objectName);
-				System.out.println("Value : " + ddtData[0][index_value]);
-				driver.findElement(this.getByObject(objectName, objectType)).sendKeys(ddtData[0][index_value]);
+				System.out.println("Value : " + param.get(colName));
+				driver.findElement(this.getByObject(objectName, objectType)).sendKeys(param.get(colName));
 				status = "Passed";
 			}else{
 				System.out.println("In : " + objectName);

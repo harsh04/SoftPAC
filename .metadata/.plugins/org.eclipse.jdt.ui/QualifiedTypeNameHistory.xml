@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CreationHelper"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CellStyle"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
@@ -20,7 +19,12 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriverException"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxBinary"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxProfile"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
+<fullyQualifiedTypeName name="KDF.ExcelFileSheet"/>
+<fullyQualifiedTypeName name="KDF.Framework"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
 </qualifiedTypeNameHistroy>
