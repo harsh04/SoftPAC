@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CreationHelper"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CellStyle"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
 <fullyQualifiedTypeName name="com.google.common.collect.Table.Cell"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
-<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="KDF.ExcelExecutor"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
-<fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebDriverException"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxBinary"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.firefox.FirefoxProfile"/>
@@ -24,7 +18,28 @@
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
 <fullyQualifiedTypeName name="KDF.ExcelFileSheet"/>
 <fullyQualifiedTypeName name="KDF.Framework"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFSheet"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Row"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CreationHelper"/>
+<fullyQualifiedTypeName name="jxl.Sheet"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+<fullyQualifiedTypeName name="com.sun.jna.platform.unix.X11.Font"/>
+<fullyQualifiedTypeName name="jxl.write.Font"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Font"/>
+<fullyQualifiedTypeName name="org.openqa.jetty.html.Font"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="org.apache.poi.openxml4j.exceptions.InvalidFormatException"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.lang.Enum"/>
+<fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFCell"/>
+<fullyQualifiedTypeName name="KDF.LogRecorder"/>
 </qualifiedTypeNameHistroy>

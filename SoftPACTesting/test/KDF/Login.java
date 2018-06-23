@@ -1,14 +1,10 @@
 package KDF;
 
-import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -25,6 +21,7 @@ public class Login {
 	WebDriver driver;
 	String sheetname = "login";
 	Sheet KDTexcelSheet;
+	static int ddtRecordNum = 1;
 	String strDateFormat = "dd_MM_yyyy_HH_mm";
 	SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
 	java.util.Date date = new java.util.Date();
@@ -33,7 +30,13 @@ public class Login {
 	@BeforeTest
 	public void setUp() throws Exception {
 		java.util.Date date = new java.util.Date();
-		System.out.println("\n\nExecution Log - Start Time - "+ sdf.format(date));	
+		System.out.println("\n Start Time - "+ sdf.format(date)+"\n\n");	
+		
+		LogRecorder.workingDir = "test\\resources\\data\\logRecord";
+		LogRecorder.fileName = "LOG_"+sheetname+"_"+sdf.format(date)+".xlsx";
+		LogRecorder.sheetName = sheetname;
+		LogRecorder.CreateExcel();
+		
 	}
 	
 	@DataProvider(name = "login")
@@ -43,6 +46,7 @@ public class Login {
 	
 	@Test(dataProvider = "login")
 	public void loginTest(String user, String pass) throws Exception {
+		ddtRecordNum++;
 		parameters.put("username", user);
 		parameters.put("password", pass);
 		
@@ -55,7 +59,6 @@ public class Login {
 			if (row.getCell(0).toString().length() == 0) {
 				if(row.getCell(1).toString().length() > 0){
 					try {
-						
 						framework.performAction(row.getCell(1).toString(), row
 								.getCell(2).toString(), row.getCell(3).toString(),
 								row.getCell(4).toString(), row.getCell(5).toString(), parameters);
@@ -68,14 +71,13 @@ public class Login {
 			else {
 				System.out.println("New Testcase-> " + row.getCell(0).toString()
 						+ " Started");
-				framework = new Framework(driver);
+				
 			}
 		}
 	}
 
 	@AfterTest
 	public void tearDown() {
-		
 		System.out.println("\n\nExecution Log - End Time - "+sdf.format(date));
 		
 	}

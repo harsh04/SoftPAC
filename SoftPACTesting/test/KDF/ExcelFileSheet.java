@@ -69,9 +69,7 @@ public class ExcelFileSheet {
 
 			int totalNoOfRows = sh.getPhysicalNumberOfRows();
 			int totalNoOfCols = sh.getRow(0).getPhysicalNumberOfCells();
-
-			System.out.println("FROM DDT :\ntotalNoOfRows=" + totalNoOfRows + ","
-					+ " totalNoOfCols=" + totalNoOfCols);
+			
 			arrayExcelData = new String[totalNoOfRows - 1][totalNoOfCols];
 			for (int i = 1; i <= totalNoOfRows - 1; i++) {
 				for (int j = 0; j <= totalNoOfCols - 1; j++) {

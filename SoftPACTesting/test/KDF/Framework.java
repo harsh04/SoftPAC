@@ -22,6 +22,8 @@ public class Framework {
 	static Row ddtHead;
 	static int ddtRows = 0;
 	List<String> ddtHeader = new ArrayList<String>();
+	
+	
 	static HashMap<String, String> variables = new HashMap<String, String>();
 
 	public Framework(WebDriver driver) {
@@ -35,121 +37,111 @@ public class Framework {
 		String status = "failed";
 		
 		switch (operation.toUpperCase()) {
-		
-	/*	case "DATAPROVIDER":
-			ddtRows = ddtData.length;
-			ddtHead = ExcelFileSheet.getExcelSheet("test\\resources\\data",objectName, value).getRow(0);
-			int col_num = ddtHead.getLastCellNum();
-			for(int i = 0; i < col_num ;i++)
-			{
-				ddtHeader.add((ddtHead.getCell(i).toString()));
-			}
-			status = "Passed";
-			break;*/
 			
-		case "OPENBROWSER":
-			System.out.println("Opening : " + value);
-			browserobj = new OpenBrowser(value);
-			driver = browserobj.getDriver();
-			status = "Passed";
-			break;
-			
-		case "CLOSEBROWSER":
-			driver.close();
-			status = "Passed";
-			break;
-			
-		case "WAITUNTIL":
-			WebDriverWait wait = new WebDriverWait(driver, 10);
-			try{
-				wait.until(ExpectedConditions.visibilityOfElementLocated(this.getByObject(objectName, objectType)));
+			case "OPENBROWSER":
+				System.out.println("Opening : " + value);
+				browserobj = new OpenBrowser(value);
+				driver = browserobj.getDriver();
 				status = "Passed";
-			}catch(Throwable e){
-				System.out.println("Object not found");
-			}
-			break;
-			
-		case "STORE":
-			variables.put(var, driver.findElement(this.getByObject(objectName, objectType)).getText());
-			status = "Passed";
-			break;
-			
-		case "VERIFYTITLE":
-			try{
-				Assert.assertEquals(driver.getTitle(), variables.get(value));
+				break;
+				
+			case "CLOSEBROWSER":
+				driver.close();
 				status = "Passed";
-			}catch(Throwable e){
-				status = "Title does not match";
-			}
-			break;
-			
-		case "VERIFYTEXTONPAGE":
-			System.out.println("Value : "+value);
-			try{
-				Assert.assertTrue(driver.getPageSource().contains(value));
+				break;
+				
+			case "WAITUNTIL":
+				WebDriverWait wait = new WebDriverWait(driver, 10);
+				try{
+					wait.until(ExpectedConditions.visibilityOfElementLocated(this.getByObject(objectName, objectType)));
+					status = "Passed";
+				}catch(Throwable e){
+					System.out.println("Object not found");
+				}
+				break;
+				
+			case "STORE":
+				variables.put(var, driver.findElement(this.getByObject(objectName, objectType)).getText());
 				status = "Passed";
-			}catch(Throwable e){
-				status = "Text not found!";
-			}
-			break;
-			
-		case "CLICK":
-			// Perform click
-			System.out.println("On : " + objectName);
-			driver.findElement(this.getByObject(objectName, objectType)).click();
-			status = "Passed";
-			break;
-			
-		case "HOVER":
-			Actions act = new Actions(driver);
-			act.moveToElement(driver.findElement(this.getByObject(objectName, objectType))).click().perform();
-			status = "Passed";
-			break;
-			
-		case "SETTEXT":
-			if(value.contains("{{")){
-				String colName = value.replace("{{", "");
-				colName = colName.replace("}}", "");				
-				System.out.println("In : " + objectName);
-				System.out.println("Value : " + param.get(colName));
-				driver.findElement(this.getByObject(objectName, objectType)).sendKeys(param.get(colName));
+				break;
+				
+			case "VERIFYTITLE":
+				try{
+					Assert.assertEquals(driver.getTitle(), variables.get(value));
+					status = "Passed";
+				}catch(Throwable e){
+					status = "Title does not match";
+				}
+				break;
+				
+			case "VERIFYTEXTONPAGE":
+				System.out.println("Value : "+value);
+				try{
+					Assert.assertTrue(driver.getPageSource().contains(value));
+					status = "Passed";
+				}catch(Throwable e){
+					status = "Text not found!";
+				}
+				break;
+				
+			case "CLICK":
+				// Perform click
+				System.out.println("On : " + objectName);
+				driver.findElement(this.getByObject(objectName, objectType)).click();
 				status = "Passed";
-			}else{
-				System.out.println("In : " + objectName);
-				System.out.println("Value : " + value);
-				driver.findElement(this.getByObject(objectName, objectType)).sendKeys(value);
+				break;
+				
+			case "HOVER":
+				Actions act = new Actions(driver);
+				act.moveToElement(driver.findElement(this.getByObject(objectName, objectType))).click().perform();
 				status = "Passed";
-			}			
-			break;
-			
-		case "GOTOURL":
-			// Get url of application
-			System.out.println("Site : " + value);
-			driver.get(value);
-			status = "Passed";
-			break;
-			
-		case "GETTEXT":
-			// Get text of an element
-			System.out.println("Read From : " + objectName);
-			String str = driver.findElement(
-					this.getByObject(objectName, objectType)).getText();
-			System.out.println(str);
-			status = "Passed";
-			break;
-			
-		case "TIMEOUT":
-			// Get url of application
-			System.out.println("For : " + value);
-			float sleeptime = Float.parseFloat(value);
-			Thread.sleep((long) (sleeptime) * 1000);
-			status = "Passed";
-			break;
-		default:
-			break;
+				break;
+				
+			case "SETTEXT":
+				if(value.contains("{{")){
+					String colName = value.replace("{{", "");
+					colName = colName.replace("}}", "");				
+					System.out.println("In : " + objectName);
+					System.out.println("Value : " + param.get(colName));
+					driver.findElement(this.getByObject(objectName, objectType)).sendKeys(param.get(colName));
+					status = "Passed";
+				}else{
+					System.out.println("In : " + objectName);
+					System.out.println("Value : " + value);
+					driver.findElement(this.getByObject(objectName, objectType)).sendKeys(value);
+					status = "Passed";
+				}			
+				break;
+				
+			case "GOTOURL":
+				// Get url of application
+				System.out.println("Site : " + value);
+				driver.get(value);
+				status = "Passed";
+				break;
+				
+			case "GETTEXT":
+				// Get text of an element
+				System.out.println("Read From : " + objectName);
+				String str = driver.findElement(
+						this.getByObject(objectName, objectType)).getText();
+				System.out.println(str);
+				status = "Passed";
+				break;
+				
+			case "TIMEOUT":
+				// Get url of application
+				System.out.println("For : " + value);
+				float sleeptime = Float.parseFloat(value);
+				Thread.sleep((long) (sleeptime) * 1000);
+				status = "Passed";
+				break;
+			default:
+				break;
 		}
 		System.out.println("Status : " + status);
 		System.out.println();
+		LogRecorder.modifyExistingWorkbook();
 	}
 
 	/**
