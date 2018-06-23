@@ -25,11 +25,13 @@ public class KDTExecuter {
 				if (row.getCell(0).toString().length() == 0) {
 					if (row.getCell(1).toString().length() > 0) {
 						try {
-							framework.performAction(row.getCell(1).toString(),
-									row.getCell(2).toString(), row.getCell(3)
-											.toString(), row.getCell(4)
-											.toString(), row.getCell(5)
-											.toString(), parameters);
+							
+							framework.performAction(ExcelFileSheet.getCellValueAsString(row.getCell(1)),
+									ExcelFileSheet.getCellValueAsString(row.getCell(2)),
+									ExcelFileSheet.getCellValueAsString(row.getCell(3)),
+									ExcelFileSheet.getCellValueAsString(row.getCell(4)),
+									ExcelFileSheet.getCellValueAsString(row.getCell(5)),
+									parameters);
 
 						} catch (Exception e) {
 							System.out.println("fail = go for debug");

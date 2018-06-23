@@ -4,7 +4,6 @@
 <fullyQualifiedTypeName name="com.google.common.collect.Table.Cell"/>
 <fullyQualifiedTypeName name="KDF.ExcelExecutor"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
-<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="org.junit.BeforeClass"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
@@ -16,14 +15,12 @@
 <fullyQualifiedTypeName name="java.lang.Throwable"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
-<fullyQualifiedTypeName name="KDF.ExcelFileSheet"/>
 <fullyQualifiedTypeName name="KDF.Framework"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFSheet"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="org.apache.poi.hssf.usermodel.HSSFWorkbook"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
@@ -49,4 +46,9 @@
 <fullyQualifiedTypeName name="KDF.KDTExecuter"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Cell"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.DateUtil"/>
+<fullyQualifiedTypeName name="KDF.ExcelFileSheet"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
 </qualifiedTypeNameHistroy>

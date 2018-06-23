@@ -7,9 +7,9 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
-public class MembershipRegistration {
+public class CreateFd {
 	WebDriver driver;
-	String sheetname = "MembershipRegistration";
+	String sheetname = "CreateFd";
 	Sheet KDTexcelSheet;
 	String strDateFormat = "dd_MM_yyyy_HH_mm_ss";
 	SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);

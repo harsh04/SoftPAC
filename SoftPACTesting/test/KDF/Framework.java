@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.apache.poi.ss.usermodel.Row;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -91,10 +92,28 @@ public class Framework {
 				}
 				break;
 				
+			case "SENDKEYS":
+				switch (value.toUpperCase()) {
+				case "ENTER":
+					driver.findElement(this.getByObject(objectName, objectType)).sendKeys(Keys.ENTER);
+					status = "Passed";
+					break;
+				default:
+					System.out.println("This keyboard key is not defined");
+					break;
+				}
+		
+				break;
+				
 			case "CLICK":
 				// Perform click
 				System.out.println("On : " + objectName);
 				driver.findElement(this.getByObject(objectName, objectType)).click();
+				status = "Passed";
+				break;
+				
+			case "RADIOBUTTON":
+				driver.findElement(By.xpath("//input[@value='"+value+"']")).click();
 				status = "Passed";
 				break;
 				
@@ -123,7 +142,7 @@ public class Framework {
 			case "DROPDOWN":
 				List<WebElement> dropdown= driver.findElements(this.getByObject(objectName, objectType));
 				for (WebElement drop : dropdown) {
-					if(drop.getText().equalsIgnoreCase(value)){
+					if(drop.getText().contains(value)){
 						drop.click();
 						System.out.println("Value : " +drop.getText());
 						status = "Passed";
