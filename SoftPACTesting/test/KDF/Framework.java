@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
-import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -47,6 +47,13 @@ public class Framework {
 				
 			case "CLOSEBROWSER":
 				driver.close();
+				status = "Passed";
+				break;
+				
+			case "GOTOURL":
+				// Get url of application
+				System.out.println("Site : " + value);
+				driver.get(value);
 				status = "Passed";
 				break;
 				
@@ -112,12 +119,23 @@ public class Framework {
 					status = "Passed";
 				}			
 				break;
+			
+			case "DROPDOWN":
+				List<WebElement> dropdown= driver.findElements(this.getByObject(objectName, objectType));
+				for (WebElement drop : dropdown) {
+					if(drop.getText().equalsIgnoreCase(value)){
+						drop.click();
+						System.out.println("Value : " +drop.getText());
+						status = "Passed";
+					}
+				}
+				break;
 				
-			case "GOTOURL":
-				// Get url of application
-				System.out.println("Site : " + value);
-				driver.get(value);
-				status = "Passed";
+			case "SELECT":
+					Select dropDown = new Select(driver.findElement(this.getByObject(objectName, objectType)));
+					dropDown.selectByValue(value);
+					System.out.println("Value : " +value);
+					status = "Passed";
 				break;
 				
 			case "GETTEXT":
@@ -136,6 +154,7 @@ public class Framework {
 				Thread.sleep((long) (sleeptime) * 1000);
 				status = "Passed";
 				break;
+				
 			default:
 				break;
 		}

@@ -29,7 +29,6 @@
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.CreationHelper"/>
 <fullyQualifiedTypeName name="jxl.Sheet"/>
-<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
 <fullyQualifiedTypeName name="com.sun.jna.platform.unix.X11.Font"/>
 <fullyQualifiedTypeName name="jxl.write.Font"/>
 <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Font"/>
@@ -45,4 +44,9 @@
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="KDF.LogRecorder"/>
 <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Sheet"/>
+<fullyQualifiedTypeName name="KDF.KDTExecuter"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
 </qualifiedTypeNameHistroy>
