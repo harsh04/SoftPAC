@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="KDF.MembershipRegistration">
+      <class name="KDF.MembershipRegistrationNonIndividual">
         <methods>
-          <include name="registrationTest"/>
-          <include name="setUp"/>
+          <include name="loginTest"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- KDF.MembershipRegistration -->
+      </class> <!-- KDF.MembershipRegistrationNonIndividual -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
