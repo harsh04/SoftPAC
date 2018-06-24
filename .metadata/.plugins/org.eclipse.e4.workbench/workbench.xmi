@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="ASCII"?>
+<<<<<<< HEAD
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_bmqUsXWMEeivxNNAXrBUCg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bmqUsnWMEeivxNNAXrBUCg" bindingContexts="_bmqUtHWMEeivxNNAXrBUCg">
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OpenBrowser.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/OpenBrowser.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/OpenBrowser.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KDTExecuter.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/KDTExecuter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/KDTExecuter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Framework.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Framework.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Framework.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileSheet.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TransactionEntry.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/TransactionEntry.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/TransactionEntry.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Login.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Login.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Login.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MembershipRegistration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/MembershipRegistration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/MembershipRegistration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFd.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFd.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/CreateFd.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;multipleTesting.xml&quot; tooltip=&quot;SoftPACTesting/multipleTesting.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/multipleTesting.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LogRecorder.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/LogRecorder.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/LogRecorder.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;POIforgfgWrite.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;LOG_login_22_06_2018_20_05.xlsx&quot; tooltip=&quot;SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_Registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_Registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_Registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelExecutor.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelExecutor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/ExcelExecutor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+=======
+<<<<<<< HEAD
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_bmqUsXWMEeivxNNAXrBUCg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_bmqUsnWMEeivxNNAXrBUCg" bindingContexts="_bmqUtHWMEeivxNNAXrBUCg">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Framework.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Framework.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Framework.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KDTExecuter.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/KDTExecuter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/KDTExecuter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MembershipRegistrationNonIndividual.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/MembershipRegistrationNonIndividual.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/MembershipRegistrationNonIndividual.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;KDT.xlsx&quot; tooltip=&quot;SoftPACTesting/test/resources/data/KDT.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/resources/data/KDT.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MembershipRegistration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/MembershipRegistration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/MembershipRegistration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFdJoint.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFdJoint.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/CreateFdJoint.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Login.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Login.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Login.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFd.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFd.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/CreateFd.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileSheet.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;multipleTesting.xml&quot; tooltip=&quot;SoftPACTesting/multipleTesting.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/multipleTesting.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LogRecorder.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/LogRecorder.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/LogRecorder.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;POIforgfgWrite.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;LOG_login_22_06_2018_20_05.xlsx&quot; tooltip=&quot;SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_Registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_Registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_Registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+=======
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_prPo0HdEEeiZIZzu7ffoPA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_prPo0XdEEeiZIZzu7ffoPA" bindingContexts="_prSFW3dEEeiZIZzu7ffoPA">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TransactionEntry.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/TransactionEntry.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/TransactionEntry.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MembershipRegistration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/MembershipRegistration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/MembershipRegistration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFd.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFd.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/CreateFd.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileSheet.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KDTExecuter.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/KDTExecuter.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/KDTExecuter.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;multipleTesting.xml&quot; tooltip=&quot;SoftPACTesting/multipleTesting.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/multipleTesting.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;LogRecorder.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/LogRecorder.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/LogRecorder.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Framework.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Framework.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Framework.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Login.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Login.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Login.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;POIforgfgWrite.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/POIforgfgWrite.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.systemInPlaceEditor&quot; name=&quot;LOG_login_22_06_2018_20_05.xlsx&quot; tooltip=&quot;SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/resources/data/logRecord/LOG_login_22_06_2018_20_05.xlsx&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Membership_Registration.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Membership_Registration.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/Membership_Registration.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OpenBrowser.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/OpenBrowser.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/OpenBrowser.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelExecutor.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelExecutor.java&quot;>&#xD;&#xA;&lt;persistable path=&quot;/SoftPACTesting/test/KDF/ExcelExecutor.java&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_bmqUsnWMEeivxNNAXrBUCg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_b2rtsHWMEeivxNNAXrBUCg" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="1024" height="768">
@@ -118,9 +128,21 @@
       <tags>View</tags>
       <tags>categoryTag:Help</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="advanced:Area" xmi:id="_b_4F8HWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.editorss" selectedElement="_HWvkEHZjEeijKdQQEcDiug">
       <children xsi:type="basic:PartSashContainer" xmi:id="_HWvkEHZjEeijKdQQEcDiug" selectedElement="_HWvkEXZjEeijKdQQEcDiug" horizontal="true">
         <children xsi:type="basic:PartStack" xmi:id="_b_4F8XWMEeivxNNAXrBUCg" elementId="org.eclipse.e4.primaryDataStack" toBeRendered="false" containerData="7250">
+=======
+<<<<<<< HEAD
+    <sharedElements xsi:type="advanced:Area" xmi:id="_b_4F8HWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.editorss" selectedElement="_HWvkEHZjEeijKdQQEcDiug">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_HWvkEHZjEeijKdQQEcDiug" selectedElement="_HWvkEXZjEeijKdQQEcDiug" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_b_4F8XWMEeivxNNAXrBUCg" elementId="org.eclipse.e4.primaryDataStack" containerData="6026" selectedElement="_aR31oHdFEeiKN9chYDxmlw">
+=======
+    <sharedElements xsi:type="advanced:Area" xmi:id="_prQQwndEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.editorss" selectedElement="_prQQw3dEEeiZIZzu7ffoPA">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_prQQw3dEEeiZIZzu7ffoPA" selectedElement="_prQQzHdEEeiZIZzu7ffoPA" horizontal="true">
+        <children xsi:type="basic:PartStack" xmi:id="_prQQxHdEEeiZIZzu7ffoPA" elementId="org.eclipse.e4.primaryDataStack" toBeRendered="false" containerData="7250">
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
           <tags>newtablook</tags>
           <tags>org.eclipse.e4.primaryDataStack</tags>
           <tags>EditorStack</tags>
@@ -134,44 +156,125 @@
         </children>
         <children xsi:type="basic:PartStack" xmi:id="_HWvkEXZjEeijKdQQEcDiug" elementId="PartStack@549367ca" containerData="2750" selectedElement="_cAOrWXWMEeivxNNAXrBUCg">
           <tags>active</tags>
+<<<<<<< HEAD
           <children xsi:type="advanced:Placeholder" xmi:id="_cAOrWXWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.console.ConsoleView" ref="_cABP6HWMEeivxNNAXrBUCg"/>
           <children xsi:type="basic:Part" xmi:id="_Ra-i4HdEEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TransactionEntry.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TransactionEntry.java&quot; partName=&quot;TransactionEntry.java&quot; title=&quot;TransactionEntry.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/TransactionEntry.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/TransactionEntry.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;825&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+<<<<<<< HEAD
+          <children xsi:type="basic:Part" xmi:id="_ngEKYHY2EeibW4ytnZJxkw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Framework.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Framework.java&quot; partName=&quot;Framework.java&quot; title=&quot;Framework.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Framework.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/Framework.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;5&quot; selectionOffset=&quot;3165&quot; selectionTopPixel=&quot;1457&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
           </children>
+<<<<<<< HEAD
           <children xsi:type="basic:Part" xmi:id="_YpN1wHdFEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Login.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Login.java&quot; partName=&quot;Login.java&quot; title=&quot;Login.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Login.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/Login.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;449&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrVXWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.views.ProblemView" toBeRendered="false" ref="_cABP5HWMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrVnWMEeivxNNAXrBUCg" elementId="org.eclipse.jdt.ui.JavadocView" toBeRendered="false" ref="_cABP5XWMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrV3WMEeivxNNAXrBUCg" elementId="org.eclipse.jdt.ui.SourceView" toBeRendered="false" ref="_cABP5nWMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrWHWMEeivxNNAXrBUCg" elementId="org.eclipse.search.ui.views.SearchView" toBeRendered="false" ref="_cABP53WMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrWnWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.views.BookmarkView" toBeRendered="false" ref="_cABP6XWMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrW3WMEeivxNNAXrBUCg" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_cABP6nWMEeivxNNAXrBUCg"/>
+          <children xsi:type="advanced:Placeholder" xmi:id="_HpodI3ZeEeijKdQQEcDiug" elementId="org.eclipse.debug.ui.DebugView" toBeRendered="false" ref="_HpodInZeEeijKdQQEcDiug"/>
+          <children xsi:type="basic:Part" xmi:id="_HKGc4HcsEeiCJPJyUGIS8A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="KDTExecuter.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KDTExecuter.java&quot; partName=&quot;KDTExecuter.java&quot; title=&quot;KDTExecuter.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/KDTExecuter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/KDTExecuter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;594&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
           </children>
+<<<<<<< HEAD
           <children xsi:type="basic:Part" xmi:id="_3p44gHdFEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="KDTExecuter.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;KDTExecuter.java&quot; partName=&quot;KDTExecuter.java&quot; title=&quot;KDTExecuter.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/KDTExecuter.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/KDTExecuter.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;644&quot; selectionTopPixel=&quot;50&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+          <children xsi:type="basic:Part" xmi:id="_ShBcYHctEeiCJPJyUGIS8A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ExcelFileSheet.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileSheet.java&quot; partName=&quot;ExcelFileSheet.java&quot; title=&quot;ExcelFileSheet.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;3276&quot; selectionTopPixel=&quot;1156&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
           </children>
+<<<<<<< HEAD
           <children xsi:type="basic:Part" xmi:id="_ASoP8HdGEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ExcelFileSheet.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;ExcelFileSheet.java&quot; partName=&quot;ExcelFileSheet.java&quot; title=&quot;ExcelFileSheet.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/ExcelFileSheet.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;270&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+          <children xsi:type="basic:Part" xmi:id="_7cVKAHcyEeiCJPJyUGIS8A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CreateFdSingle.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFdSingle.java&quot; partName=&quot;CreateFdSingle.java&quot; title=&quot;CreateFdSingle.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFdSingle.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/CreateFdSingle.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;274&quot; selectionTopPixel=&quot;179&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
           </children>
+<<<<<<< HEAD
           <children xsi:type="basic:Part" xmi:id="_BeowEHdGEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Framework.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Framework.java&quot; partName=&quot;Framework.java&quot; title=&quot;Framework.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Framework.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/Framework.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;8&quot; selectionOffset=&quot;4230&quot; selectionTopPixel=&quot;1810&quot;/>&#xD;&#xA;&lt;/editor>"/>
+=======
+          <children xsi:type="basic:Part" xmi:id="_Fzj7MHdBEei4uqECHLWWtA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Login.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Login.java&quot; partName=&quot;Login.java&quot; title=&quot;Login.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/Login.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/Login.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
           </children>
+<<<<<<< HEAD
           <children xsi:type="basic:Part" xmi:id="__UW0YHdGEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="OpenBrowser.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
             <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;OpenBrowser.java&quot; partName=&quot;OpenBrowser.java&quot; title=&quot;OpenBrowser.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/OpenBrowser.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/OpenBrowser.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;2289&quot; selectionTopPixel=&quot;870&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
             <tags>removeOnHide</tags>
+=======
+          <children xsi:type="basic:Part" xmi:id="_fnWz8HdCEei4uqECHLWWtA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="CreateFdJoint.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;CreateFdJoint.java&quot; partName=&quot;CreateFdJoint.java&quot; title=&quot;CreateFdJoint.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/CreateFdJoint.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/CreateFdJoint.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;13&quot; selectionOffset=&quot;259&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+            <tags>removeOnHide</tags>
+=======
+          <tags>noFocus</tags>
+          <children xsi:type="advanced:Placeholder" xmi:id="_prQQzXdEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.console.ConsoleView" ref="_prQ3Z3dEEeiZIZzu7ffoPA"/>
+          <children xsi:type="basic:Part" xmi:id="_prQQzndEEeiZIZzu7ffoPA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="TransactionEntry.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;TransactionEntry.java&quot; partName=&quot;TransactionEntry.java&quot; title=&quot;TransactionEntry.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/TransactionEntry.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/TransactionEntry.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;16&quot; selectionOffset=&quot;273&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+            <tags>removeOnHide</tags>
+            <tags>active</tags>
+            <menus xsi:type="menu:PopupMenu" xmi:id="_prQQz3dEEeiZIZzu7ffoPA" elementId="#CompilationUnitEditorContext">
+              <tags>menuContribution:popup</tags>
+              <tags>popup:#CompilationUnitEditorContext</tags>
+              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.EditorContext</tags>
+              <tags>popup:#AbstractTextEditorContext</tags>
+            </menus>
+            <menus xsi:type="menu:PopupMenu" xmi:id="_prQQ0HdEEeiZIZzu7ffoPA" elementId="#CompilationUnitRulerContext">
+              <tags>menuContribution:popup</tags>
+              <tags>popup:#CompilationUnitRulerContext</tags>
+              <tags>popup:org.eclipse.jdt.ui.CompilationUnitEditor.RulerContext</tags>
+              <tags>popup:#AbstractTextEditorRulerContext</tags>
+            </menus>
+            <menus xsi:type="menu:PopupMenu" xmi:id="_prQQ0XdEEeiZIZzu7ffoPA" elementId="#OverviewRulerContext">
+              <tags>menuContribution:popup</tags>
+              <tags>popup:#OverviewRulerContext</tags>
+            </menus>
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
+          </children>
+          <children xsi:type="basic:Part" xmi:id="_aR31oHdFEeiKN9chYDxmlw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MembershipRegistrationNonIndividual.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;MembershipRegistrationNonIndividual.java&quot; partName=&quot;MembershipRegistrationNonIndividual.java&quot; title=&quot;MembershipRegistrationNonIndividual.java&quot; tooltip=&quot;SoftPACTesting/test/KDF/MembershipRegistrationNonIndividual.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/SoftPACTesting/test/KDF/MembershipRegistrationNonIndividual.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;737&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <tags>Editor</tags>
+            <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
+            <tags>removeOnHide</tags>
+            <tags>active</tags>
+            <tags>activeOnClose</tags>
           </children>
         </children>
+<<<<<<< HEAD
+        <children xsi:type="basic:PartStack" xmi:id="_HWvkEXZjEeijKdQQEcDiug" elementId="PartStack@549367ca" containerData="3974" selectedElement="_cAOrWXWMEeivxNNAXrBUCg">
+          <children xsi:type="advanced:Placeholder" xmi:id="_cAOrWXWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.console.ConsoleView" ref="_cABP6HWMEeivxNNAXrBUCg"/>
+        </children>
+=======
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_cABP4HWMEeivxNNAXrBUCg" elementId="org.eclipse.jdt.ui.PackageExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Package Explorer" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/package.gif" closeable="true">
@@ -274,7 +377,15 @@
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
     </sharedElements>
+<<<<<<< HEAD
     <sharedElements xsi:type="basic:Part" xmi:id="_Y6OioHWXEeisc44TtfEDpA" elementId="org.testng.eclipse.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Results of running class TransactionEntry" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" closeable="true">
+=======
+<<<<<<< HEAD
+    <sharedElements xsi:type="basic:Part" xmi:id="_Y6OioHWXEeisc44TtfEDpA" elementId="org.testng.eclipse.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Results of running class MembershipRegistrationNonIndividual" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" closeable="true">
+=======
+    <sharedElements xsi:type="basic:Part" xmi:id="_prQ3eXdEEeiZIZzu7ffoPA" elementId="org.testng.eclipse.ResultView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="TestNG" iconURI="platform:/plugin/org.testng.eclipse/icons/full/main16/testng_blur.gif" closeable="true">
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view FailureRunView.tab.title.ratio=&quot;500&quot; HierarchyRunView.tab.title.ratio=&quot;500&quot; orientation=&quot;2&quot; page=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:Java</tags>
@@ -301,7 +412,51 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b6tSEHWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_9Bln5XdDEeiZIZzu7ffoPA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_bnKsQ3WMEeivxNNAXrBUCg"/>
+=======
+<<<<<<< HEAD
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BDPC93dFEeiKN9chYDxmlw" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_bnKsQ3WMEeivxNNAXrBUCg"/>
+=======
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3g3dEEeiZIZzu7ffoPA" elementId="new.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3hHdEEeiZIZzu7ffoPA" elementId="newWizardDropDown">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3hXdEEeiZIZzu7ffoPA" elementId="new.ext" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3hndEEeiZIZzu7ffoPA" elementId="save.group" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3h3dEEeiZIZzu7ffoPA" elementId="save">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3iHdEEeiZIZzu7ffoPA" elementId="saveAll">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3iXdEEeiZIZzu7ffoPA" elementId="save.ext" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_prQ3indEEeiZIZzu7ffoPA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_prTUU3dEEeiZIZzu7ffoPA"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3i3dEEeiZIZzu7ffoPA" elementId="print.ext" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3jHdEEeiZIZzu7ffoPA" elementId="build.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3jXdEEeiZIZzu7ffoPA" elementId="build.ext" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3jndEEeiZIZzu7ffoPA" elementId="additions">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prQ3j3dEEeiZIZzu7ffoPA" elementId="build">
+          <tags>Opaque</tags>
+        </children>
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b6tSEXWMEeivxNNAXrBUCg" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -325,7 +480,39 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_b6t5IHWMEeivxNNAXrBUCg" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< HEAD
         <children xsi:type="menu:HandledToolItem" xmi:id="_9Bln73dDEeiZIZzu7ffoPA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_bnKryXWMEeivxNNAXrBUCg"/>
+=======
+<<<<<<< HEAD
+        <children xsi:type="menu:HandledToolItem" xmi:id="_BDYM4HdFEeiKN9chYDxmlw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_bnKryXWMEeivxNNAXrBUCg"/>
+=======
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReDXdEEeiZIZzu7ffoPA" elementId="history.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReDndEEeiZIZzu7ffoPA" elementId="group.application" visible="false">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReD3dEEeiZIZzu7ffoPA" elementId="backardHistory">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReEHdEEeiZIZzu7ffoPA" elementId="forwardHistory">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReEXdEEeiZIZzu7ffoPA" elementId="pin.group">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_prReEndEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_prTT2XdEEeiZIZzu7ffoPA"/>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReE3dEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.edit.text.gotoNextAnnotation">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReFHdEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.edit.text.gotoPreviousAnnotation">
+          <tags>Opaque</tags>
+        </children>
+        <children xsi:type="menu:DirectToolItem" xmi:id="_prReFXdEEeiZIZzu7ffoPA" elementId="org.eclipse.ui.edit.text.gotoLastEditPosition">
+          <tags>Opaque</tags>
+        </children>
+>>>>>>> c647b935e18e948e003173eaf749cdf4b250214f
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_9LACkHdDEeiZIZzu7ffoPA" elementId="org.eclipse.jdt.ui.CompilationUnitEditor">
         <tags>Draggable</tags>

@@ -2,6 +2,7 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Default suite" duration-ms="12248" started-at="2018-06-24T01:56:53Z" finished-at="2018-06-24T01:57:05Z">
     <groups>
     </groups>
@@ -52,6 +53,26 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- KDF.TransactionEntry -->
+=======
+  <suite name="Default suite" duration-ms="11277" started-at="2018-06-24T01:38:25Z" finished-at="2018-06-24T01:38:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11277" started-at="2018-06-24T01:38:25Z" finished-at="2018-06-24T01:38:36Z">
+      <class name="KDF.MembershipRegistrationNonIndividual">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="setUp" is-config="true" duration-ms="616" started-at="2018-06-23T18:38:25Z" finished-at="2018-06-23T18:38:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="loginTest" duration-ms="10649" started-at="2018-06-23T18:38:26Z" finished-at="2018-06-23T18:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-23T18:38:36Z" finished-at="2018-06-23T18:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- KDF.MembershipRegistrationNonIndividual -->
+>>>>>>> 40a7476e39647539a2e6dcbbdf0e437cccf55d5e
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
