@@ -14,6 +14,7 @@
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\LTI.INFVA07202\Documents\GitHub\Workspace\SoftPAC\SoftPACTesting"/>
 			<item value="D:\SoftPAC\"/>
 			<item value="D:\SoftPAC\SoftPAC"/>
 		</list>

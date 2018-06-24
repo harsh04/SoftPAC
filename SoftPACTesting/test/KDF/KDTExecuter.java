@@ -17,8 +17,7 @@ public class KDTExecuter {
 			KDTexcelSheet = ExcelFileSheet.getExcelSheet(
 					"test\\resources\\data", "KDT.xlsx", sheetname);
 
-			int KDTRowCount = KDTexcelSheet.getLastRowNum()
-					- KDTexcelSheet.getFirstRowNum();
+			int KDTRowCount = KDTexcelSheet.getLastRowNum()- KDTexcelSheet.getFirstRowNum();
 
 			for (int i = 1; i < KDTRowCount; i++) {
 				Row row = KDTexcelSheet.getRow(i);

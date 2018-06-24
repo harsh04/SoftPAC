@@ -9,7 +9,7 @@ import org.testng.annotations.*;
 
 public class TransactionEntry {
 	WebDriver driver;
-	String sheetname = "MembershipRegistration";
+	String sheetname = "transactionEntry";
 	Sheet KDTexcelSheet;
 	String strDateFormat = "dd_MM_yyyy_HH_mm_ss";
 	SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
@@ -33,7 +33,7 @@ public class TransactionEntry {
 		return (ExcelFileSheet.readXLSX("test\\resources\\data","DDT.xlsx",sheetname));
 	}
 	
-	@Test//(dataProvider = "dataForTest")
+	@Test //(dataProvider = "dataForTest")
 	public void registrationTest() throws Exception {
 		//TODO:pass parameters after making it ddt
 		KDTExecuter.executeTest(driver, sheetname, parameters);

@@ -85,7 +85,7 @@ public class OpenBrowser {
 			return driver;
 		} catch (WebDriverException e) {
 			File pathToBinary = new File(
-					"C:\\Users\\LTI.INFVA07207\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
+					"C:\\Users\\LTI.INFVA07202\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
 			FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
 			FirefoxProfile firefoxProfile = new FirefoxProfile();
 			driver = new FirefoxDriver(ffBinary, firefoxProfile);
