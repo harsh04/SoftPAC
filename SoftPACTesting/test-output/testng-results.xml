@@ -1,25 +1,999 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="18" passed="18">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11277" started-at="2018-06-24T01:38:25Z" finished-at="2018-06-24T01:38:36Z">
+  <suite name="Command line suite" duration-ms="806480" started-at="2018-06-26T17:31:27Z" finished-at="2018-06-26T17:44:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11277" started-at="2018-06-24T01:38:25Z" finished-at="2018-06-24T01:38:36Z">
-      <class name="KDF.MembershipRegistrationNonIndividual">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="setUp" is-config="true" duration-ms="616" started-at="2018-06-23T18:38:25Z" finished-at="2018-06-23T18:38:26Z">
+    <test name="Command line test" duration-ms="806480" started-at="2018-06-26T17:31:27Z" finished-at="2018-06-26T17:44:53Z">
+      <class name="KDF.closeFd">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:KDF.closeFd@277c0f21]" name="registrationTest" duration-ms="47286" started-at="2018-06-26T23:14:06Z" data-provider="dataForTest" finished-at="2018-06-26T23:14:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Confirm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[120403-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FD 338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+      </class> <!-- KDF.closeFd -->
+      <class name="KDF.TransactionEntry">
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:KDF.TransactionEntry@6a38e57f]" name="transactionTest" duration-ms="36224" started-at="2018-06-26T23:06:54Z" data-provider="dataForTest" finished-at="2018-06-26T23:07:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120892-Vikash Anand .]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CA 742-Vikash Anand .]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Credit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Withdrawal Slip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:KDF.TransactionEntry@6a38e57f]" name="transactionTest" duration-ms="36995" started-at="2018-06-26T23:07:30Z" data-provider="dataForTest" finished-at="2018-06-26T23:08:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120892-Vikash Anand .]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CA 742-Vikash Anand .]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Debit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Withdrawal Slip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CA]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+      </class> <!-- KDF.TransactionEntry -->
+      <class name="KDF.CreateFdJoint">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.CreateFdJoint@67f89fa3]" name="setUp" is-config="true" duration-ms="1137" started-at="2018-06-26T23:01:27Z" finished-at="2018-06-26T23:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="loginTest" duration-ms="10649" started-at="2018-06-23T18:38:26Z" finished-at="2018-06-23T18:38:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.CreateFdSingle@1c6b6478]" name="setUp" is-config="true" duration-ms="84" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@4439f31e]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-23T18:38:36Z" finished-at="2018-06-23T18:38:36Z">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.Login@7382f612]" name="setUp" is-config="true" duration-ms="85" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.MembershipRegistrationIndividual@1055e4af]" name="setUp" is-config="true" duration-ms="63" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@3caeaf62]" name="setUp" is-config="true" duration-ms="63" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.ModificationNonIndividual@e6ea0c6]" name="setUp" is-config="true" duration-ms="59" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.TransactionEntry@6a38e57f]" name="setUp" is-config="true" duration-ms="60" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.TransactionView@5577140b]" name="setUp" is-config="true" duration-ms="64" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.ViewFd@4ac68d3e]" name="setUp" is-config="true" duration-ms="56" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:KDF.closeFd@277c0f21]" name="setUp" is-config="true" duration-ms="44" started-at="2018-06-26T23:01:28Z" finished-at="2018-06-26T23:01:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:KDF.CreateFdJoint@67f89fa3]" name="registrationTest" duration-ms="63834" started-at="2018-06-26T23:12:10Z" data-provider="dataForTest" finished-at="2018-06-26T23:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120403-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SB 364-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kavita Kapish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mother]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Kuldeep Kapish]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Hidden]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[normal-1 Days To 1 Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.CreateFdJoint@67f89fa3]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.Login@7382f612]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.MembershipRegistrationIndividual@1055e4af]" name="tearDown" is-config="true" duration-ms="1" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.CreateFdSingle@1c6b6478]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.ModificationNonIndividual@e6ea0c6]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.TransactionEntry@6a38e57f]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.TransactionView@5577140b]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.MembershipRegistrationNonIndividual@3caeaf62]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.ViewFd@4ac68d3e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:KDF.closeFd@277c0f21]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-26T23:14:53Z" finished-at="2018-06-26T23:14:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- KDF.CreateFdJoint -->
+      <class name="KDF.CreateFdSingle">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:KDF.CreateFdSingle@1c6b6478]" name="registrationTest" duration-ms="54685" started-at="2018-06-26T23:10:17Z" data-provider="dataForTest" finished-at="2018-06-26T23:11:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120403-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SB 364-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kuldeep Kapish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hidden]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[normal-1 Days To 1 Year]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[FD Created Successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:KDF.CreateFdSingle@1c6b6478]" name="registrationTest" duration-ms="58253" started-at="2018-06-26T23:11:12Z" data-provider="dataForTest" finished-at="2018-06-26T23:12:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120412-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SB 364-Kanika Kapish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[normal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kuldeep Kapish]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Father]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Hidden]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[normal-1 Days To 1 Year]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+      </class> <!-- KDF.CreateFdSingle -->
+      <class name="KDF.MembershipRegistrationNonIndividual">
+        <test-method status="PASS" signature="memberRegistrationNonIndividualTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:KDF.MembershipRegistrationNonIndividual@3caeaf62]" name="memberRegistrationNonIndividualTest" duration-ms="143633" started-at="2018-06-26T23:03:21Z" data-provider="dataForTest" finished-at="2018-06-26T23:05:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Joint]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Vaishali Malik]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dinesh Malik]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Vishal Malik]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[def]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Broker]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[doc]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Passport]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[83242444234]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[10-05-2010]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[CNSAP3944E]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[xyz colony, saket nagar]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Mahape]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[thane]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[482002]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[12345687977]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[vaisahali.001@gmail.com]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[Post Graduated]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[Divice]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[120297 - Vaishali Malik]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Member Registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- memberRegistrationNonIndividualTest -->
       </class> <!-- KDF.MembershipRegistrationNonIndividual -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="KDF.Login">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:KDF.Login@7382f612]" name="loginTest" duration-ms="19092" started-at="2018-06-26T23:01:29Z" data-provider="dataForTest" finished-at="2018-06-26T23:01:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beta10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beta@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:KDF.Login@7382f612]" name="loginTest" duration-ms="11376" started-at="2018-06-26T23:01:48Z" data-provider="dataForTest" finished-at="2018-06-26T23:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[beta9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[beta@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- KDF.Login -->
+      <class name="KDF.ModificationNonIndividual">
+        <test-method status="PASS" signature="modifyNonIndividualTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:KDF.ModificationNonIndividual@e6ea0c6]" name="modifyNonIndividualTest" duration-ms="69017" started-at="2018-06-26T23:05:44Z" data-provider="dataForTest" finished-at="2018-06-26T23:06:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Modify]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Partnership]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[important docs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Passport]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ABCD1023]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[25-04-2018]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[CNSPM11234]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[LTI]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[mahape]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[thane]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[UP]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[482002]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[12345687977]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[1234567891]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[vaisahali.001@gmail.com]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[Post Graduated]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[Divice]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[C:\\Users\\LTI.INFVA07202\\Documents\\Workspace\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[C:\\Users\\LTI.INFVA07202\\Documents\\Workspace\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyNonIndividualTest -->
+      </class> <!-- KDF.ModificationNonIndividual -->
+      <class name="KDF.TransactionView">
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="23401" started-at="2018-06-26T23:08:07Z" data-provider="dataForTest" finished-at="2018-06-26T23:08:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018 ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201806252]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="24028" started-at="2018-06-26T23:08:30Z" data-provider="dataForTest" finished-at="2018-06-26T23:08:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[201806254]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="22568" started-at="2018-06-26T23:08:54Z" data-provider="dataForTest" finished-at="2018-06-26T23:09:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018062513]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="24184" started-at="2018-06-26T23:09:17Z" data-provider="dataForTest" finished-at="2018-06-26T23:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018062515]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="17700" started-at="2018-06-26T23:09:41Z" data-provider="dataForTest" finished-at="2018-06-26T23:09:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018062523]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+        <test-method status="PASS" signature="transactionTest(java.lang.String, java.lang.String)[pri:6, instance:KDF.TransactionView@5577140b]" name="transactionTest" duration-ms="18688" started-at="2018-06-26T23:09:59Z" data-provider="dataForTest" finished-at="2018-06-26T23:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25-06-2018]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2018062543]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transactionTest -->
+      </class> <!-- KDF.TransactionView -->
+      <class name="KDF.MembershipRegistrationIndividual">
+        <test-method status="PASS" signature="registrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:KDF.MembershipRegistrationIndividual@1055e4af]" name="registrationTest" duration-ms="81433" started-at="2018-06-26T23:01:59Z" data-provider="dataForTest" finished-at="2018-06-26T23:03:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Customer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Single]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Harsh]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mathur]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[04-07-1996]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Buddhist]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Farmer]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[General]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Indian]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[ABCD123456]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[89324324324]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[ABCD0123DEFG1234]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[PQ123456]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[123489073453]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[xyz colony, m nagar]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Mahape]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[Uttar Pradesh]]>
+              </value>
+            </param>
+            <param index="23">
+              <value>
+                <![CDATA[510011]]>
+              </value>
+            </param>
+            <param index="24">
+              <value>
+                <![CDATA[60708901111]]>
+              </value>
+            </param>
+            <param index="25">
+              <value>
+                <![CDATA[9897866612]]>
+              </value>
+            </param>
+            <param index="26">
+              <value>
+                <![CDATA[harsh.mathur04@gmail.com]]>
+              </value>
+            </param>
+            <param index="27">
+              <value>
+                <![CDATA[50000]]>
+              </value>
+            </param>
+            <param index="28">
+              <value>
+                <![CDATA[Graduated]]>
+              </value>
+            </param>
+            <param index="29">
+              <value>
+                <![CDATA[Unmarried]]>
+              </value>
+            </param>
+            <param index="30">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+            <param index="31">
+              <value>
+                <![CDATA[120301 - Harsh Mathur]]>
+              </value>
+            </param>
+            <param index="32">
+              <value>
+                <![CDATA[D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png]]>
+              </value>
+            </param>
+            <param index="33">
+              <value>
+                <![CDATA[D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png]]>
+              </value>
+            </param>
+            <param index="34">
+              <value>
+                <![CDATA[Member Registered successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+      </class> <!-- KDF.MembershipRegistrationIndividual -->
+      <class name="KDF.ViewFd">
+        <test-method status="PASS" signature="registrationTest(java.lang.String)[pri:9, instance:KDF.ViewFd@4ac68d3e]" name="registrationTest" duration-ms="51747" started-at="2018-06-26T23:13:14Z" data-provider="dataForTest" finished-at="2018-06-26T23:14:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[120403-Kanika Kapish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+      </class> <!-- KDF.ViewFd -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

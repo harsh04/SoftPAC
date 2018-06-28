@@ -4,14 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.apache.jasper.tagplugins.jstl.core.ForEach;
+import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -51,13 +50,6 @@ public class Framework {
 				status = "Passed";
 				break;
 				
-			case "GOTOURL":
-				// Get url of application
-				System.out.println("Site : " + value);
-				driver.get(value);
-				status = "Passed";
-				break;
-				
 			case "WAITUNTIL":
 				WebDriverWait wait = new WebDriverWait(driver, 10);
 				try{
@@ -92,28 +84,10 @@ public class Framework {
 				}
 				break;
 				
-			case "SENDKEYS":
-				switch (value.toUpperCase()) {
-				case "ENTER":
-					driver.findElement(this.getByObject(objectName, objectType)).sendKeys(Keys.ENTER);
-					status = "Passed";
-					break;
-				default:
-					System.out.println("This keyboard key is not defined");
-					break;
-				}
-		
-				break;
-				
 			case "CLICK":
 				// Perform click
 				System.out.println("On : " + objectName);
 				driver.findElement(this.getByObject(objectName, objectType)).click();
-				status = "Passed";
-				break;
-				
-			case "RADIOBUTTON":
-				driver.findElement(By.xpath("//input[@value='"+value+"']")).click();
 				status = "Passed";
 				break;
 				
@@ -138,23 +112,12 @@ public class Framework {
 					status = "Passed";
 				}			
 				break;
-			
-			case "DROPDOWN":
-				List<WebElement> dropdown= driver.findElements(this.getByObject(objectName, objectType));
-				for (WebElement drop : dropdown) {
-					if(drop.getText().contains(value)){
-						drop.click();
-						System.out.println("Value : " +drop.getText());
-						status = "Passed";
-					}
-				}
-				break;
 				
-			case "SELECT":
-					Select dropDown = new Select(driver.findElement(this.getByObject(objectName, objectType)));
-					dropDown.selectByValue(value);
-					System.out.println("Value : " +value);
-					status = "Passed";
+			case "GOTOURL":
+				// Get url of application
+				System.out.println("Site : " + value);
+				driver.get(value);
+				status = "Passed";
 				break;
 				
 			case "GETTEXT":
@@ -173,14 +136,12 @@ public class Framework {
 				Thread.sleep((long) (sleeptime) * 1000);
 				status = "Passed";
 				break;
-				
 			default:
 				break;
 		}
 		System.out.println("Status : " + status);
 		System.out.println();
-		LogRecorder.rowNumber++;
-		LogRecorder.modifyExistingWorkbook("","",operation,objectName,objectType,status);
+		LogRecorder.modifyExistingWorkbook();
 	}
 
 	/**

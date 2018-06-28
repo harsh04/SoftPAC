@@ -1,15 +1,15 @@
 package KDF;
-
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
+import framework.*;
 
 public class TransactionEntry {
 	WebDriver driver;
-	String sheetname = "MembershipRegistration";
+	String sheetname = "transactionEntry";
 	Sheet KDTexcelSheet;
 	String strDateFormat = "dd_MM_yyyy_HH_mm_ss";
 	SimpleDateFormat sdf = new SimpleDateFormat(strDateFormat);
@@ -29,19 +29,24 @@ public class TransactionEntry {
 	}
 	
 	@DataProvider(name = "dataForTest")
-	public Object[][] getLoginData() {
+	public Object[][] getTransactionData() {
 		return (ExcelFileSheet.readXLSX("test\\resources\\data","DDT.xlsx",sheetname));
 	}
 	
-	@Test//(dataProvider = "dataForTest")
-	public void registrationTest() throws Exception {
-		//TODO:pass parameters after making it ddt
+	@Test(dataProvider = "dataForTest", priority=5)
+	public void transactionTest(String memId, String accNo,String txnType, String instrument,String txnCode, String amt) throws Exception {
+		parameters.put("memberId", memId);
+		parameters.put("accountNo", accNo);
+		parameters.put("transactionType", txnType);
+		parameters.put("instrumentType", instrument);
+		parameters.put("transactionCode", txnCode);
+		parameters.put("amount", amt);
 		KDTExecuter.executeTest(driver, sheetname, parameters);
 	}
 	
 	@AfterTest
 	public void tearDown() {
 		System.out.println("\n\nExecution Log - End Time - "+sdf.format(date));
-		
+
 	}
 }

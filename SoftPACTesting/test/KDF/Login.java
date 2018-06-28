@@ -3,11 +3,10 @@ package KDF;
 import java.text.SimpleDateFormat;
 import java.util.HashMap;
 
-import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-
+import framework.*;
 /**
  * this is the excel executor goes row by row of excel reads the keywords in
  * excel sheet executes one by one
@@ -40,7 +39,7 @@ public class Login {
 		return (ExcelFileSheet.readXLSX("test\\resources\\data","DDT.xlsx",sheetname));
 	}
 	
-	@Test(dataProvider = "dataForTest")
+	@Test(dataProvider = "dataForTest", priority=0)
 	public void loginTest(String user, String pass) throws Exception {
 		parameters.put("username", user);
 		parameters.put("password", pass);

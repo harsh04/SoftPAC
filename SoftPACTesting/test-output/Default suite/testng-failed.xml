@@ -5,7 +5,7 @@
     <classes>
       <class name="KDF.MembershipRegistrationNonIndividual">
         <methods>
-          <include name="loginTest"/>
+          <include name="memberRegistrationNonIndividualTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

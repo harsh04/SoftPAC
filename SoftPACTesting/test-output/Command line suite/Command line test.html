@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 26 23:01:27 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>806 seconds (806480 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='KDF.Login.loginTest()'><b>loginTest</b><br>Test class: KDF.Login<br>Parameters: beta10, beta@123</td>
+<td></td>
+<td>19</td>
+<td>KDF.Login@7382f612</td></tr>
+<tr>
+<td title='KDF.Login.loginTest()'><b>loginTest</b><br>Test class: KDF.Login<br>Parameters: beta9, beta@</td>
+<td></td>
+<td>11</td>
+<td>KDF.Login@7382f612</td></tr>
+<tr>
+<td title='KDF.MembershipRegistrationNonIndividual.memberRegistrationNonIndividualTest()'><b>memberRegistrationNonIndividualTest</b><br>Test class: KDF.MembershipRegistrationNonIndividual<br>Parameters: Customer, Joint, Vaishali Malik, Dinesh Malik, Vishal Malik, abc, def, Broker, doc, Passport, India, Delhi, 83242444234, 10-05-2010, CNSAP3944E, xyz colony, saket nagar, Mahape, thane, Maha, 482002, 12345687977, 1234567891, vaisahali.001@gmail.com, 2000000, Post Graduated, Divice, 120297 - Vaishali Malik, D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png, D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png, Member Registered successfully</td>
+<td></td>
+<td>143</td>
+<td>KDF.MembershipRegistrationNonIndividual@3caeaf62</td></tr>
+<tr>
+<td title='KDF.ModificationNonIndividual.modifyNonIndividualTest()'><b>modifyNonIndividualTest</b><br>Test class: KDF.ModificationNonIndividual<br>Parameters: Modify, Partnership, important docs, Passport, India, Delhi, ABCD1023, 25-04-2018, CNSPM11234, LTI, mahape, thane, UP, 482002, 12345687977, 1234567891, vaisahali.001@gmail.com, 2000000, Post Graduated, Divice, C:\\Users\\LTI.INFVA07202\\Documents\\Workspace\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png, C:\\Users\\LTI.INFVA07202\\Documents\\Workspace\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png</td>
+<td></td>
+<td>69</td>
+<td>KDF.ModificationNonIndividual@e6ea0c6</td></tr>
+<tr>
+<td title='KDF.MembershipRegistrationIndividual.registrationTest()'><b>registrationTest</b><br>Test class: KDF.MembershipRegistrationIndividual<br>Parameters: Customer, Single, Harsh, , Mathur, Male, 04-07-1996, Buddhist, Farmer, 100, General, Indian, ABC, DEF, ABCD123456, 89324324324, ABCD0123DEFG1234, PQ123456, 123489073453, xyz colony, m nagar, Uttar Pradesh, Mahape, Uttar Pradesh, 510011, 60708901111, 9897866612, harsh.mathur04@gmail.com, 50000, Graduated, Unmarried, Others, 120301 - Harsh Mathur, D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\photo.png, D:\\SoftPAC\\SoftPAC_v4\\SoftPAC\\SoftPACTesting\\test\\resources\\data\\images\\sign.png, Member Registered successfully</td>
+<td></td>
+<td>81</td>
+<td>KDF.MembershipRegistrationIndividual@1055e4af</td></tr>
+<tr>
+<td title='KDF.CreateFdSingle.registrationTest()'><b>registrationTest</b><br>Test class: KDF.CreateFdSingle<br>Parameters: 120403-Kanika Kapish, SB 364-Kanika Kapish, normal, Kuldeep Kapish, Father, Hidden, 10000, 2, 4, 23, normal-1 Days To 1 Year, FD Created Successfully</td>
+<td></td>
+<td>54</td>
+<td>KDF.CreateFdSingle@1c6b6478</td></tr>
+<tr>
+<td title='KDF.CreateFdSingle.registrationTest()'><b>registrationTest</b><br>Test class: KDF.CreateFdSingle<br>Parameters: 120412-Kanika Kapish, SB 364-Kanika Kapish, normal, Kuldeep Kapish, Father, Hidden, 10000, 2, 4, 23, normal-1 Days To 1 Year, </td>
+<td></td>
+<td>58</td>
+<td>KDF.CreateFdSingle@1c6b6478</td></tr>
+<tr>
+<td title='KDF.CreateFdJoint.registrationTest()'><b>registrationTest</b><br>Test class: KDF.CreateFdJoint<br>Parameters: 120403-Kanika Kapish, SB 364-Kanika Kapish, normal, Kavita Kapish, Mother, Kuldeep Kapish, Father, Hidden, 10000, 2, 4, 23, normal-1 Days To 1 Year</td>
+<td></td>
+<td>63</td>
+<td>KDF.CreateFdJoint@67f89fa3</td></tr>
+<tr>
+<td title='KDF.ViewFd.registrationTest()'><b>registrationTest</b><br>Test class: KDF.ViewFd<br>Parameters: 120403-Kanika Kapish</td>
+<td></td>
+<td>51</td>
+<td>KDF.ViewFd@4ac68d3e</td></tr>
+<tr>
+<td title='KDF.closeFd.registrationTest()'><b>registrationTest</b><br>Test class: KDF.closeFd<br>Parameters: Confirm, 120403-Kanika Kapish, FD 338</td>
+<td></td>
+<td>47</td>
+<td>KDF.closeFd@277c0f21</td></tr>
+<tr>
+<td title='KDF.TransactionEntry.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionEntry<br>Parameters: 120892-Vikash Anand ., CA 742-Vikash Anand ., Credit, Withdrawal Slip, CA, 100</td>
+<td></td>
+<td>36</td>
+<td>KDF.TransactionEntry@6a38e57f</td></tr>
+<tr>
+<td title='KDF.TransactionEntry.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionEntry<br>Parameters: 120892-Vikash Anand ., CA 742-Vikash Anand ., Debit, Withdrawal Slip, CA, 100</td>
+<td></td>
+<td>36</td>
+<td>KDF.TransactionEntry@6a38e57f</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018 , 201806252</td>
+<td></td>
+<td>23</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018, 201806254</td>
+<td></td>
+<td>24</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018, 2018062513</td>
+<td></td>
+<td>22</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018, 2018062515</td>
+<td></td>
+<td>24</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018, 2018062523</td>
+<td></td>
+<td>17</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+<tr>
+<td title='KDF.TransactionView.transactionTest()'><b>transactionTest</b><br>Test class: KDF.TransactionView<br>Parameters: 25-06-2018, 2018062543</td>
+<td></td>
+<td>18</td>
+<td>KDF.TransactionView@5577140b</td></tr>
+</table><p>
+</body>
+</html>

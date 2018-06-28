@@ -7,6 +7,8 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 
+import framework.*;
+
 public class CreateFdJoint {
 	WebDriver driver;
 	String sheetname = "CreateFdJoint";
@@ -33,9 +35,21 @@ public class CreateFdJoint {
 		return (ExcelFileSheet.readXLSX("test\\resources\\data","DDT.xlsx",sheetname));
 	}
 	
-	@Test//(dataProvider = "dataForTest")
-	public void registrationTest() throws Exception {
-		//TODO:pass parameters after making it ddt
+	@Test(dataProvider = "dataForTest", priority=8)
+	public void registrationTest(String memberId, String sourceAcc,String custType,String jointName, String jointRelation, String nominee,String relation, String relationType, String deposit, String year, String month, String days, String interestSlab) throws Exception {
+		parameters.put("memberId", memberId);
+		parameters.put("sourceAcc", sourceAcc);
+		parameters.put("custType", custType);
+		parameters.put("jointName", jointName);
+		parameters.put("jointRelation", jointRelation);
+		parameters.put("nominee", nominee);
+		parameters.put("relation", relation);
+		parameters.put("relationType", relationType);
+		parameters.put("deposit", deposit);
+		parameters.put("year", year);
+		parameters.put("month", month);
+		parameters.put("days", days);
+		parameters.put("interestSlab", interestSlab);
 		KDTExecuter.executeTest(driver, sheetname, parameters);
 	}
 	

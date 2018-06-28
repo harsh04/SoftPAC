@@ -2,17 +2,22 @@ package KDF;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.DateUtil;
+import org.apache.poi.ss.usermodel.CreationHelper;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelFileSheet {
+	private static String[] logHeader = {"TestCaseName","Test case number", "Keyword", "Object Locator","Object Type", "Status"};
 
 	// method takes three parameters
 	// 1. file path
@@ -41,12 +46,11 @@ public class ExcelFileSheet {
 		}
 		// Read sheet inside the workbook by its name
 		Sheet keyWordSheet = keywordWorkbook.getSheet(sheetName);
-
 		return keyWordSheet;
 	}
-
-	public static String[][] readXLSX(String filePath, String fileName,
-			String sheetName) {
+	
+	
+	public static String[][] readXLSX(String filePath, String fileName, String sheetName) {
 		String[][] arrayExcelData = null;
 		org.apache.poi.ss.usermodel.Workbook wb = null;
 		try {
@@ -65,7 +69,7 @@ public class ExcelFileSheet {
 
 			int totalNoOfRows = sh.getPhysicalNumberOfRows();
 			int totalNoOfCols = sh.getRow(0).getPhysicalNumberOfCells();
-
+			
 			arrayExcelData = new String[totalNoOfRows - 1][totalNoOfCols];
 			for (int i = 1; i <= totalNoOfRows - 1; i++) {
 				for (int j = 0; j <= totalNoOfCols - 1; j++) {
@@ -79,36 +83,6 @@ public class ExcelFileSheet {
 			e.printStackTrace();
 		}
 		return arrayExcelData;
-	}
-
-	public static String getCellValueAsString(Cell cell) {
-		String strCellValue = null;
-		if (cell != null) {
-			switch (cell.getCellType()) {
-			case Cell.CELL_TYPE_STRING:
-				strCellValue = cell.toString();
-				break;
-			case Cell.CELL_TYPE_NUMERIC:
-				if (DateUtil.isCellDateFormatted(cell)) {
-					SimpleDateFormat dateFormat = new SimpleDateFormat(
-							"dd-MM-yyyy");
-					strCellValue = dateFormat.format(cell.getDateCellValue());
-				} else {
-					Double value = cell.getNumericCellValue();
-					Long longValue = value.longValue();
-					strCellValue = new String(longValue.toString());
-				}
-				break;
-			case Cell.CELL_TYPE_BOOLEAN:
-				strCellValue = new String(new Boolean(
-						cell.getBooleanCellValue()).toString());
-				break;
-			case Cell.CELL_TYPE_BLANK:
-				strCellValue = "";
-				break;
-			}
-		}
-		return strCellValue;
 	}
 
 }
